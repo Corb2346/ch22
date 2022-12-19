@@ -7,3 +7,10 @@
 |agregando lineas con la termianal nano|
 |	                               |
 |--------------------------------------|
+
+*--------------------------------------*
+/ Nueva linea agregada para actualizar \
+\                                      /
+/ practicando como subir contenido a   \
+\ git hub desde linea de comandos      /
+*--------------------------------------*
