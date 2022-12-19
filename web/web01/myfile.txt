@@ -1,0 +1,9 @@
+----------------------------------------
+| Archivo creado con touch .txt        |
+|                                      |
+|                                      |
+| Brayan Correa Reyes                  |
+|                                      |
+|agregando lineas con la termianal nano|
+|	                               |
+|--------------------------------------|
