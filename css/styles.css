@@ -1,0 +1,31 @@
+h1{/*comentarios en css*/
+    color:darkblue;
+    text-align: center;
+}
+
+h2{
+    color: red;
+    font-family: 'Cabin', sans-serif;
+}
+
+.tipos-pops{
+    background-color:aquamarine;
+}
+
+#populares{/*No se comparte con ningun elemento                                                */
+    color: red;
+}
+
+table{
+    text-align: center;
+    border:3px solid black;
+}
+
+td,th{
+    border:3px solid black;
+    padding: 10px 15px 30px 5px
+}
+
+.tableDos{
+    border:5px solid rgb(114, 1, 1);
+}

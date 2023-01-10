@@ -1,0 +1,33 @@
+header > h1{/*selectores combinadores*/
+    color: darkblue;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(178, 205, 255);
+
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    background-color: lavender;
+    width: 960px;
+    height: 100px;
+    border-radius:30px;
+}
+
+li{
+    padding: 50px;
+    font-size: 40px;
+    list-style-type:none;
+}
+
+a[href="index.html"]{
+    color: red;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    
+}
