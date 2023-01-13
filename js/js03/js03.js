@@ -216,3 +216,20 @@ if(numeroMes>0 && numeroMes< 13){
 
 let numeroMe = parseInt(prompt("Introduce un número de mes: "));
 
+//---------Refactorizando
+function factorial( number ){
+    if( number < 1) 
+        return 1;
+    return number * factorial( number - 1 )
+}
+console.log("Factorial 5 = " + factorial(5) ); //120
+
+    //Sintáxis: condición ? condición_verdadera : condición_falsa;
+
+//---------Refactorizando
+function factorial( number ){
+    const result = number < 1 ? 1 : number * factorial(number-1);
+    return result;
+}
+console.log("Factorial 5 = " + factorial(5) ); //120
+
