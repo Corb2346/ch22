@@ -210,5 +210,57 @@ for (fila = 0; fila < participantes.length; fila++) {
         }
 }
 
+//Ciclo While
+/* 
+    Sintáxis: 
+    while( condicion_verdadera ) intrsucción;
 
+    while( condicion_verdadera ){ 
+        instrucciones};
+*/
 
+/* while( confirm ("¿Quieres seguir iterando?")){
+    console.log("Iteración n. + "+ numIteracion++);
+} */
+
+// Preguntar del 1 al 10 y saber si es el número que pensó el usuario
+/* let number = 1;
+while( !confirm(`${number} es tu numero?`) ) {
+    number++;    
+} */
+//console.log("Tu número es el " + number);
+
+let valor = 0;
+while( valor < 5){
+    console.log("while " + valor);
+    valor++
+} // 0 al 4 
+
+valor = 10;
+do {
+    console.log("do while " + valor);
+    valor++; // 10
+}while ( valor < 5 )
+
+/* 
+    FIFO : first in first out
+    LIFO : last in first out
+
+*/
+
+const alimentosPerecederos = [];
+//Agregando una caja 
+// Usando FIFO
+
+alimentosPerecederos.push("manzanas lunes");
+alimentosPerecederos.push("manzanas miercoles")
+
+//Sacando manzanas del lunes
+console.log("Sacando a la venta " + alimentosPerecederos.shift());
+console.log("Sacando a la venta " + alimentosPerecederos.shift());
+
+//Tenemos una ferreteria
+const productos = ["desarmadores","cemento"];
+//agrego luces navideñas en diciembre
+productos.push("Luces navideñas")
+console.log("Sacando a la venta " + productos.pop());
